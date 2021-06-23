@@ -13,9 +13,6 @@ struct Animation {
     var force: ClosedRange<Double>
     var duration: ClosedRange<Double>
     var delay: ClosedRange<Double>
-}
-
-extension Animation {
     
     static func getAnimationSettings() -> Animation {
         let animation = Animation(
@@ -26,5 +23,6 @@ extension Animation {
             delay: DataManager.shared.delay
         )
         return animation
-    }
 }
+}
+

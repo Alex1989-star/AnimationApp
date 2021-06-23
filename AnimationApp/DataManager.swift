@@ -7,7 +7,7 @@
 
 import Foundation
 
-class DataManager {
+struct DataManager {
     static let shared = DataManager()
     
     let springPresets = [
@@ -21,7 +21,7 @@ class DataManager {
         "zoomIn", "zoomOut", "flash"
     ]
     
-    let springCurve = ["spring", "linear", "easeIn", "easeOut", "easeInOut"]
+    let springCurve = ["spring", "linear", "easeIn", "easeOut", "easeInOut", "aseInSine", "easeOutSine", "easeInOutSine", "aseInQuad", "easeOutQuad", "easeInOutQuad", "easeInCubic"]
     
     let force = 0...2.0
     let duration = 0.5...2.5

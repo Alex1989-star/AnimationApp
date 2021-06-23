@@ -34,7 +34,7 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var runCoreAnimations: SpringButton!
     
-    private var originCoordinate: CGFloat?
+    //private var originCoordinate: CGFloat?
     
     private let animationSet = Animation.getAnimationSettings()
     private var randomAnimation = ""
